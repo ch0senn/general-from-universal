@@ -393,6 +393,12 @@
                 document.getElementById("myNav").style.display = "none";
             }
       </script>
+      <script>
+            document.querySelector('a-scene').addEventListener('loaded', function () {
+                document.getElementById("myNav").style.display = "block";
+            })
+
+    </script>
     <script>
       var scene = document.querySelector('a-scene');
       scene.addEventListener('loaded', function () {
